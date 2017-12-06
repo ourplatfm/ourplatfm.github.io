@@ -1778,7 +1778,7 @@
 	}
 
 	a {
-		color: #54a354;
+		color: #b70e0e;
 	}
 
 	strong, b {
@@ -1893,7 +1893,7 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		border-radius: 2px;
+		border-radius: 1px;
 		border: 0;
 		cursor: pointer;
 		display: inline-block;
@@ -2041,7 +2041,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #54a354;
+			background-color: #b70e0e;
 			color: #ffffff !important;
 		}
 
@@ -2245,8 +2245,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #54a354;
-			box-shadow: 0 0 0 1px #54a354;
+			border-color: #b70e0e;
+			box-shadow: 0 0 0 1px #b70e0e;
 		}
 
 	.select-wrapper:before {
@@ -2266,15 +2266,15 @@
 
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {
-		background-color: #54a354;
-		border-color: #54a354;
+		background-color: #b70e0e;
+		border-color: #b70e0e;
 		color: #ffffff;
 	}
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color: #54a354;
-		box-shadow: 0 0 0 1px #54a354;
+		border-color: #b70e0e;
+		box-shadow: 0 0 0 1px #b70e0e;
 	}
 
 	::-webkit-input-placeholder {
@@ -3100,7 +3100,7 @@
 					font-size: 1rem;
 					line-height: 210%;
 					color: #999999;
-					letter-spacing: .08rem;
+					letter-spacing: .06rem;
 					padding: 3rem 0 1rem 0;
 				}
 
@@ -3109,14 +3109,14 @@
 					font-weight: 300;
 					margin: 0 0 .5rem 0;
 					padding: 1.7rem 0 1rem 0;
-					letter-spacing: .15rem;
+					letter-spacing: .1rem;
 					color: #999999;
 				}
 
 				.wrapper.style2 .content a {
 						text-align: center;
 						font-weight: 700;
-						letter-spacing: .08rem;
+						letter-spacing: .05rem;
 				}
 
 
@@ -3178,7 +3178,7 @@
 /* Footer */
 
 	#footer {
-		padding: 2rem 0 6rem 0 ;
+		padding: 2rem 0 4rem 0 ;
 		text-align: center;
 	}
 
