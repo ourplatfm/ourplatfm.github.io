@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
-@import url("http://fonts.googleapis.com/earlyaccess/notosanskr.css");
+@import url("http://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css");
 
 /* Reset */
 
@@ -1585,7 +1585,7 @@
 
 	/*  한국어 */
 			:lang(ko) {
-			  font-family: 'Noto Sans KR', sans-serif;
+			  font-family:  'Spoqa Han Sans', sans-serif;
 			}
 
 	body, input, select, textarea {
