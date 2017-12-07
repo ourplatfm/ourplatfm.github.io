@@ -2208,6 +2208,8 @@
 										-ms-flex-basis: 100%;
 										flex-basis: 100%;
 									}
+
+
 									.flex.flex-3 h3 {
 										font-size: 1.2rem;
 										text-align: center;
@@ -2222,6 +2224,16 @@
 								.flex{
 									padding: 1.5rem;
 									}
+								.flex .box {
+									margin-bottom: 1.8rem;
+									}
+							}
+
+							@media screen and (max-width: 480px) {
+								.flex{
+									padding: 1rem;
+									}
+
 							}
 
 /* wrapper style1 */
@@ -2249,6 +2261,13 @@
 
 		}
 
+		@media screen and (max-width: 480px) {
+
+			.wrapper.style1 .content {
+				padding: 2rem;
+			}
+
+		}
 
 			.wrapper.style1 .content p {
 				margin-bottom: 1.3rem;
@@ -2375,6 +2394,13 @@
 				line-height: 130%;
 				font-size: .9rem;
 				}
+			}
+
+			@media screen and (max-width: 480px) {
+				.wrapper.style2 .content {
+				padding: 2rem;
+				}
+
 			}
 
 
