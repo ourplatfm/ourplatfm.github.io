@@ -157,7 +157,7 @@
 
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 780px) {
 
 		.container.\31 25\25 {
 			width: 100%;
@@ -1112,7 +1112,7 @@
 
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 780px) {
 
 		.row > * {
 			padding: 0 0 0 1.25rem;
@@ -1605,7 +1605,7 @@
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 780px) {
 
 			html {
 				font-size: 12pt;
@@ -2130,7 +2130,7 @@
 			}
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 780px) {
 			.wrapper > header {
 				padding: 1.5rem;
 			}
@@ -2220,7 +2220,7 @@
 									}
 							}
 
-							@media screen and (max-width: 736px) {
+							@media screen and (max-width: 780px) {
 								.flex{
 									padding: 1.5rem;
 									}
@@ -2233,7 +2233,6 @@
 								.flex{
 									padding: 1rem;
 									}
-
 							}
 
 /* wrapper style1 */
@@ -2253,7 +2252,7 @@
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 780px) {
 
 			.wrapper.style1 .content {
 				padding: 3rem;
@@ -2294,7 +2293,7 @@
 
 
 
-				@media screen and (max-width: 736px) {
+				@media screen and (max-width: 780px) {
 
 				.wrapper.style1 .content .gallery > * {
 						width: 100%;
@@ -2375,7 +2374,7 @@
 					}
 				}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 780px) {
 			.wrapper.style2 .content {
 			padding: 3rem;
 			}
@@ -2456,7 +2455,7 @@
 		}
 
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 780px) {
 			#footer {
 			padding: 1rem 0 0.1rem 0 ;
 			}
