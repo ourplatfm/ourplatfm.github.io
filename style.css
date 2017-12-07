@@ -1905,8 +1905,6 @@
 			text-align: center;
 		}
 
-
-
 		.image.main {
 			display: block;
 			margin: 0 0 3rem 0;
@@ -2049,11 +2047,7 @@
 			-webkit-tap-highlight-color:rgba(0,0,0,0)
 		}
 
-		@media screen and (max-width: 980px) {
-			#main .image img {
-				width: 100%;
-			}
-		}
+
 
 		.wrapper > header {
 			text-align: center;
