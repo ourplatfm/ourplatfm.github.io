@@ -2130,6 +2130,10 @@
 								margin-bottom: .5rem;
 							}
 
+							.flex.flex-3 h3 {
+								margin-bottom: .65rem;
+								}
+
 							.flex.flex-3 .flex-item {
 								-ms-flex: 0 1 auto;
 								-ms-flex-preferred-size: 31%;
@@ -2164,8 +2168,6 @@
 										-ms-flex-basis: 100%;
 										flex-basis: 100%;
 									}
-
-
 									.flex.flex-3 h3 {
 										font-size: 1.2rem;
 										text-align: center;
@@ -2183,8 +2185,9 @@
 								.flex .box {
 									margin-bottom: 1.8rem;
 									}
-								.flex.flex-3 h3 {
-									margin-bottom: .5rem;
+								.flex .content p {
+										font-size: .95rem;
+										margin-bottom: 1.3rem;
 									}
 							}
 
@@ -2199,6 +2202,35 @@
 	.wrapper.style1 .content {
 		padding: 6rem;
 	}
+
+
+	.wrapper.style1 .content h3 {
+				margin-bottom: .8rem;
+	}
+
+	.wrapper.style1 .content p {
+				margin-bottom: 1.2rem;
+	}
+
+	.wrapper.style1 .content .gallery .image {
+				margin: 0;
+	}
+
+	.wrapper.style1 .content .gallery  > * {
+				-moz-flex-shrink: 1;
+				-webkit-flex-shrink: 1;
+				-ms-flex-shrink: 1;
+				flex-shrink: 1;
+				-moz-flex-grow: 0;
+				-webkit-flex-grow: 0;
+				-ms-flex-grow: 0;
+				flex-grow: 0;
+	}
+
+	.wrapper.style1 .content .gallery > * {
+				width: 50%;
+	}
+
 
 		@media screen and (max-width: 1280px) {
 
@@ -2218,17 +2250,19 @@
 			}
 
 			.wrapper.style1 .content h3  {
-				margin-bottom: .8rem;
+				margin-bottom: .65rem;
 			}
 
 			.wrapper.style1 .content p {
 				font-size: .95rem;
 				letter-spacing: 0.2px;
-				margin-bottom: 1.3rem;
+				margin-bottom: 1rem;
 			}
-			.flex .content p {
-				font-size: .95rem;
-				margin-bottom: 1.3rem;
+
+			.wrapper.style1 .content .gallery > * {
+					width: 100%;
+					padding: 0;
+				}
 			}
 
 		}
@@ -2241,38 +2275,10 @@
 
 		}
 
-			.wrapper.style1 .content p {
-				margin-bottom: 1.3rem;
-			}
-
-				.wrapper.style1 .content .gallery .image {
-					margin: 0;
-				}
-
-				.wrapper.style1 .content .gallery  > * {
-					-moz-flex-shrink: 1;
-					-webkit-flex-shrink: 1;
-					-ms-flex-shrink: 1;
-					flex-shrink: 1;
-					-moz-flex-grow: 0;
-					-webkit-flex-grow: 0;
-					-ms-flex-grow: 0;
-					flex-grow: 0;
-				}
-
-				.wrapper.style1 .content .gallery > * {
-					width: 50%;
-				}
 
 
 
-				@media screen and (max-width: 780px) {
 
-				.wrapper.style1 .content .gallery > * {
-						width: 100%;
-						padding: 0;
-					}
-				}
 
 
 /* wrapper style2 */
@@ -2296,7 +2302,7 @@
 			.wrapper.style2 .content header h3 {
 				font-size: 1.3rem;
 				color: #ddd;
-				margin-bottom: 2.5rem;
+				margin-bottom: 2rem;
 			}
 
 			.wrapper.style2 header strong, header b {
