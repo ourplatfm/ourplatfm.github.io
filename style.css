@@ -2199,15 +2199,19 @@
 
 			.wrapper.style2 .content header h3 {
 				font-size: 1.3rem;
-				color: #ddd;
+				color: #eee;
 				margin-top: -.3rem;
 				margin-bottom: 2rem;
 			}
 
 			.wrapper.style2 header strong, header b {
 				font-weight: 500;
-				color: #aaa;
+				color: #ccc;
 				letter-spacing: .05rem;
+			}
+
+			.wrapper.style2 .content i{
+				font-size: .75rem;
 			}
 
 			.wrapper.style2 .content header p {
