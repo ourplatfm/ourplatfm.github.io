@@ -1609,6 +1609,7 @@
 
 	em, i {
 		font-style: italic;
+		word-break: keep-all
 	}
 
 	p {
@@ -2215,7 +2216,7 @@
 				letter-spacing: .05rem;
 			}
 
-			.wrapper.style2 .content i{
+			.wrapper.style2 .content i {
 				font-size: .75rem;
 			}
 
