@@ -1753,7 +1753,7 @@
 	}
 
 	p {
-	color: #7a7a7a;
+	color: #666;
 }
 
 	blockquote {
@@ -2043,7 +2043,7 @@
 			-moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
 			box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
 			border-radius: 4px;
-		/* 아이폰 복사 방지 */
+		/* 드레그 방지 */
 			-webkit-touch-callout:none;
 			-webkit-user-select:none;
 			-khtml-user-select:none;
