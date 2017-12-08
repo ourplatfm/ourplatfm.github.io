@@ -1787,7 +1787,7 @@
 			}
 
 			.box .content {
-				padding: 1.8em 1.8em 1em 1.8em;
+				padding: 2.1em 2.5em 1.6em 2.5em;
 			}
 
 			.box.alt {
@@ -1796,6 +1796,11 @@
 				padding: 0;
 			}
 
+			@media screen and (max-width: 1280px) {
+				.box .content {
+					padding: 1.6em 1.7em 1em 1.7em;
+				}
+			}
 
 /* Button */
 
