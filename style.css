@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
 
+
+
 @font-face {
     font-family: 'Spoqa Han Sans';
     font-weight: 400;
     src: local('Spoqa Han Sans Regular'),
     url('./SpoqaHanSansRegular.woff2') format('woff2'),
     url('./SpoqaHanSansRegular.woff') format('woff'),
-    url('./SpoqaHanSansRegular.ttf') format('truetype');
-		src:local(※), url('/fonts/NanumGothic.woff') format('woff');
+		src:local(※), url('/SpoqaHanSansRegular.woff') format('woff');
 }
 
 
