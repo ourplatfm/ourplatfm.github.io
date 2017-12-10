@@ -287,7 +287,7 @@ hr {
 }
 
 .box .content {
-  padding: 2.1em 2.5em 1.6em 2.5em;
+  padding: 2.4em 2.5em 1.6em 2.5em;
 }
 
 .box.alt {
@@ -610,9 +610,6 @@ body:after {
   .wrapper.style1 .content {
     padding: 4rem;
   }
-  .wrapper.style1 .content h3 {
-    font-size: 1.2rem;
-  }
 }
 
 @media screen and (max-width: 780px) {
@@ -621,6 +618,7 @@ body:after {
   }
   .wrapper.style1 .content h3 {
     margin-bottom: .6rem;
+    font-size: 1.2rem;
   }
   .wrapper.style1 .content p {
     font-size: .95rem;
@@ -700,15 +698,15 @@ body:after {
 }
 
 @media screen and (max-width: 980px) {
-  #three {
-    text-align: center;
-  }
   .wrapper.style2 .content {
     padding: 4rem;
   }
 }
 
 @media screen and (max-width: 780px) {
+  #three {
+    text-align: center;
+  }
   .wrapper.style2 .content {
     padding: 3rem;
   }
@@ -766,13 +764,15 @@ body:after {
   background: #fff;
 }
 
-.flex.flex-3 .content p {
-  margin-bottom: .5rem;
-}
-
 .flex.flex-3 h3 {
   margin-top: -.5rem;
-  margin-bottom: .5rem;
+  margin-bottom: .8rem;
+  line-height: 120%;
+}
+
+.flex.flex-3 .content p {
+  margin-bottom: 0.7rem;
+  line-height: 120%;
 }
 
 .flex.flex-3 .flex-item {
@@ -795,7 +795,21 @@ body:after {
 }
 
 @media screen and (max-width: 980px) {
+  .flex .box {
+    margin-bottom: 1.8rem;
+  }
+  .flex.flex-3 h3 {
+    font-size: 1.2rem;
+  }
+  .flex.flex-3 p {
+    font-size: .95rem;
+    margin-bottom: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 780px) {
   .flex {
+    padding: 1.5rem;
     -ms-flex-wrap: wrap;
     -moz-flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
@@ -810,30 +824,10 @@ body:after {
     flex-basis: 100%;
   }
   .flex .box {
-    margin-bottom: 1.8rem;
-  }
-  .flex.flex-3 h3 {
-    font-size: 1.2rem;
-    text-align: center;
-  }
-  .flex.flex-3 p {
-    text-align: center;
-  }
-}
-
-@media screen and (max-width: 780px) {
-  .flex {
-    padding: 1.5rem;
-  }
-  .flex .box {
     margin-bottom: 1.5rem;
   }
   .flex.flex-3 h3 {
-    margin-bottom: .35rem;
-  }
-  .flex .content p {
-    font-size: .95rem;
-    margin-bottom: 1.3rem;
+    margin-bottom: .65rem;
   }
 }
 
@@ -843,9 +837,6 @@ body:after {
   }
   .flex .box {
     margin-bottom: 1rem;
-  }
-  .flex.flex-3 h3 {
-    margin-bottom: .3rem;
   }
   .flex.flex-3 .content p {
     margin-bottom: .25rem;
