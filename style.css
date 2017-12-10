@@ -57,14 +57,6 @@ body {
 
 /* Basic */
 
-@-ms-viewport {
-  width: device-width;
-}
-
-body {
-  -ms-overflow-style: scrollbar;
-}
-
 @media screen and (max-width: 480px) {
   html, body {
     min-width: 320px;
@@ -591,6 +583,7 @@ body:after {
 }
 
 .wrapper.style1 .content p {
+  word-break: keep-all;
   margin-bottom: 1.2rem;
 }
 
