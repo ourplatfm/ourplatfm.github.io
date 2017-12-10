@@ -792,18 +792,18 @@ body:after {
   .flex {
     padding: 2rem;
   }
-}
-
-@media screen and (max-width: 980px) {
-  .flex .box {
-    margin-bottom: 1.8rem;
-  }
-  .flex.flex-3 h3 {
-    font-size: 1.2rem;
-  }
   .flex.flex-3 p {
     font-size: .95rem;
     margin-bottom: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .flex.flex-3 h3 {
+    font-size: 1.2rem;
+  }
+  .flex .box {
+    margin-bottom: 1.8rem;
   }
 }
 
