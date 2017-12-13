@@ -807,6 +807,9 @@ body:after {
   .flex .box {
     margin-bottom: 1.8rem;
   }
+  .flex.flex-3 p {
+    letter-spacing: 0.15px;
+  }
 }
 
 @media screen and (max-width: 780px) {
