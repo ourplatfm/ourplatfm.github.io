@@ -280,7 +280,7 @@ hr {
     line-height: 1.7;
   }
   body, input, select, textarea {
-    font-size: .92rem;
+    font-size: .93rem;
     font-weight: 300;
     letter-spacing: 0.2px;
     line-height: 1.65;
@@ -673,7 +673,6 @@ body:after {
 }
 
 .wrapper.style2 header strong, header b {
-  font-weight: 500;
   color: #bbb;
   letter-spacing: .05rem;
 }
@@ -700,7 +699,6 @@ body:after {
 
 .wrapper.style2 .content a {
   font-size: 1.1rem;
-  font-weight: 700;
   letter-spacing: .08rem;
 }
 
