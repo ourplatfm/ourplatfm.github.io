@@ -622,6 +622,7 @@ body:after {
     font-size: 1.2rem;
   }
   .wrapper.style1 .content p {
+    letter-spacing: 0.2px;
     font-size: .95rem;
     margin-bottom: 1rem;
   }
