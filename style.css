@@ -635,7 +635,7 @@ body:after {
 
 @media screen and (max-width: 480px) {
   .wrapper.style1 .content {
-    padding: 2.2rem;
+    padding: 2rem;
   }
 }
 
@@ -732,7 +732,7 @@ body:after {
 
 @media screen and (max-width: 480px) {
   .wrapper.style2 .content {
-    padding: 2.2rem;
+    padding: 2rem;
   }
   .wrapper.style2 header p>b {
     display: block;
@@ -836,7 +836,7 @@ body:after {
 
 @media screen and (max-width: 480px) {
   .flex {
-    padding: 1.1rem;
+    padding: 1rem;
   }
   .flex .box {
     margin-bottom: 1rem;
