@@ -584,7 +584,7 @@ body:after {
 
 .wrapper.style1 .content p {
   word-break: keep-all;
-  letter-spacing: 0.25px;
+  letter-spacing: 0.1px;
   margin-bottom: 1.2rem;
 }
 
