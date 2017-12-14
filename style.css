@@ -269,7 +269,6 @@ hr {
 
 @media screen and (max-width: 780px) {
   :lang(ko) {
-    font-family: 'Spoqa Han Sans', sans-serif;
     font-weight: 300;
     font-size: .91rem;
     letter-spacing: 0;
@@ -835,7 +834,7 @@ body:after {
     margin-bottom: .65rem;
   }
   .flex.flex-3 .content p {
-    font-size: .9rem;
+    font-size: .92rem;
     margin-bottom: .5rem;
   }
   .flex .box {
