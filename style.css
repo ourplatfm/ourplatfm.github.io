@@ -2,11 +2,10 @@
 @font-face {
   font-family: 'SpoqaHanSans';
   font-weight: 300;
-  src: local('SpoqaHanSansLight'),
+  src: local(※),
         url('./SpoqaHanSansLight.woff2') format('woff2'),
         url('./SpoqaHanSansLight.woff') format('woff'),
         url('./SpoqaHanSansLight.ttf') format('truetype');
-  src: local(※), url('/SpoqaHanSansLight.woff') format('woff');
 }
 
 /* Reset */
