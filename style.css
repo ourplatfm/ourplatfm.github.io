@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,500,700");
-@import url("https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css");
+@font-face {
+  font-family: 'SpoqaHanSans';
+  font-weight: 300;
+  src: local('SpoqaHanSansLight'),
+        url('./SpoqaHanSansLight.woff2') format('woff2'),
+        url('./SpoqaHanSansLight.woff') format('woff'),
+        url('./SpoqaHanSansLight.ttf') format('truetype');
+  src: local(※), url('/SpoqaHanSansLight.woff') format('woff');
+}
 
 /* Reset */
 
@@ -81,24 +89,22 @@ body {
 }
 
 /*  한국어 */
+
 :lang(ko) {
-  font-family: 'Spoqa Han Sans', sans-serif;
+  font-family: 'SpoqaHanSans', sans-serif;
   font-weight: 300;
   line-height: 1.85;
   font-size: 1.02rem;
   letter-spacing: 0px;
 }
 
-body, table, div, p {
-font-family:'Roboto', sans-serif;
-line-height: 1.8;
-font-size: 1.05rem;
-font-weight: 300;
-letter-spacing: 0.4px;
+body, input, select, textarea {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.8;
+  font-size: 1.05rem;
+  font-weight: 300;
+  letter-spacing: 0.4px;
 }
-
-
-
 
 a {
   text-decoration: underline;
