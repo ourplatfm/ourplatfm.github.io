@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,500,700");
-@font-face {
-  font-family: 'Spoqa Han Sans';
-  src: local(※),
-        url('./SpoqaHanSansLight.woff2') format('woff2'),
-        url('./SpoqaHanSansLight.woff') format('woff'),
-        url('./SpoqaHanSansLight.ttf') format('truetype');
-}
+@import url("https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css");
 
 /* Reset */
 
