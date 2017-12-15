@@ -95,7 +95,7 @@ body, input, select, textarea {
   line-height: 1.8;
   font-size: 1.05rem;
   font-weight: 300;
-  letter-spacing: 0.35px;
+  letter-spacing: 0.33px;
 }
 
 a {
@@ -271,7 +271,7 @@ hr {
   :lang(ko) {
     font-size: .91rem;
     font-weight: 400;
-    letter-spacing: 0;
+    letter-spacing: -.2px;
     line-height: 1.7;
   }
   body, input, select, textarea {
