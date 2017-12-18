@@ -87,7 +87,7 @@ body {
   font-weight: 300;
   line-height: 1.85;
   font-size: 1.03rem;
-  letter-spacing: 0;
+  letter-spacing: 0.15px;
 }
 
 body, input, select, textarea {
