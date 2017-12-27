@@ -270,13 +270,11 @@ hr {
 @media screen and (max-width: 780px) {
   :lang(ko) {
     font-size: .91rem;
-    font-weight: 400;
     letter-spacing: -.1px;
     line-height: 1.7;
   }
   body, input, select, textarea {
     font-size: .92rem;
-    font-weight: 400;
     letter-spacing: 0.2px;
     line-height: 1.65;;
   }
