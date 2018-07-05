@@ -125,6 +125,7 @@ p.special {
   margin: 0 0 .5rem 0;
   padding: 0 0 1rem 0;
   letter-spacing: .25rem;
+  text-align: center;
 }
 
 p.special:after {
@@ -137,6 +138,7 @@ p.special:after {
   width: 50%;
   height: 1px;
   background-color: rgba(0, 0, 0, 0.125);
+  text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
